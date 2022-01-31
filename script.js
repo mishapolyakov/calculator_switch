@@ -19,7 +19,6 @@ function Calc ( a, b, operator) {
         }
             return 'Error'
 }
-
 console.log(Calc(1,2, '+'))
 console.log(Calc('str',5, '-'))
 console.log(Calc(1,0, '*'))
