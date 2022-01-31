@@ -2,10 +2,7 @@ function Calc ( a, b, operator) {
     const isValid =
         operator !== 'undefined' &&
         typeof(a) === 'number' &&
-        typeof(b) === 'number' &&
-        a !== 'undefined' &&
-        b !== 'undefined'
-
+        typeof(b) === 'number'
     if(isValid) {
             switch (operator) {
                 case '+' :
